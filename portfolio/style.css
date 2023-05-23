@@ -1,0 +1,145 @@
+.first-section{
+    
+    background-image: url(images/Background.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.head-section{
+    height: 50px;
+    width: 100%;
+    
+}
+.head-one{
+    height: 50px;
+    width: 50%;
+    float: left;
+
+
+}
+.head-two{
+    height: 50px;
+    width: 50%;
+    float: right;
+
+}
+/* ul{
+    color: red;
+} */
+li{
+    display: inline;
+    padding: 45px;
+   
+}
+a{
+  
+    text-decoration: none;
+}
+a:howver{
+    color: red;
+}
+.hire{
+   
+    background-color: orange;
+    padding: 15px;
+    border-radius: 20px;
+}
+/* .name{
+    color: orange;
+} */
+.name-one{
+    font-size: 50px;
+    margin-left: 75px;
+}
+
+/* end-one */
+.second-head{
+    height: 450px;
+    width: 100%;
+    
+}
+.second-head-one{
+    height: 250px;
+    width: 50%;
+    float: left;
+    
+}
+.second-para{
+  
+    text-align: justify;
+    margin-left: 200px;
+}
+.second-head-two{
+    height: 450px;
+    weight: 50%;
+    float: right;
+    margin-right:200px; 
+    margin-top: 28px;
+    
+}
+/* .second-section-head{
+    background-image:url(images/pink.jpg) ;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+
+    
+} */
+.second-section{
+    width: 75%;
+    height: 350px;
+    box-shadow: 10px 10px 40px #f3d1d7;
+    border-radius: 15px;
+    background-color: rgb(236, 213, 217);
+    margin-left: 150px;
+    border-left: 10px solid rgb(255, 223, 228);
+    text-align: center;
+}
+.about-second{
+    font-size: 40px;
+    margin-left: 340px;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.skill-section{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+   height: 300px;
+    width: 25%;
+    box-shadow: 10px 10px 40px white;
+    border-radius: 15px;
+    text-align: center;
+    padding : 0
+
+} 
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+}
+
+.contact a{
+    text-decoration: none;
+}
